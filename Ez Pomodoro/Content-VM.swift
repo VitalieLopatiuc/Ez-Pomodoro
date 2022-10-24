@@ -18,6 +18,7 @@ extension ContentView {
             didSet {
                 self.time = "\(Int(minutes)):00"
             }
+            
         }
         private var initialTime = 0
         private var endDate = Date()
